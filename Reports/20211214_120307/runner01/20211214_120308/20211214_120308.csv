@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+runner01,Chrome 96.0.4664.93,,,2021-12-14 12:03:12,2021-12-14 12:04:28,1m - 15.782s,FAILED
+,,,,,,,
+Test Cases/Login/Login1,Chrome 96.0.4664.93,,,2021-12-14 12:03:13,2021-12-14 12:04:02,48.852s,FAILED
+"expDashboardTitle = ""My account - My Store""",Chrome 96.0.4664.93,,,2021-12-14 12:03:14,2021-12-14 12:03:14,0.003s,PASSED
+"openBrowser("""")",Chrome 96.0.4664.93,,,2021-12-14 12:03:14,2021-12-14 12:03:18,3.843s,PASSED
+"navigateToUrl(""http://automationpractice.com/index.php"")",Chrome 96.0.4664.93,,,2021-12-14 12:03:18,2021-12-14 12:03:55,37.092s,PASSED
+maximizeWindow(),Chrome 96.0.4664.93,,,2021-12-14 12:03:55,2021-12-14 12:03:55,0.193s,PASSED
+"click(findTestObject(""Object Repository/Page_My Store/a_Sign in""))",Chrome 96.0.4664.93,,,2021-12-14 12:03:55,2021-12-14 12:03:58,3.184s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login - My Store/input_Email address_email""), username)",Chrome 96.0.4664.93,,,2021-12-14 12:03:58,2021-12-14 12:03:59,0.983s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login - My Store/input_Password_passwd""), password)",Chrome 96.0.4664.93,,,2021-12-14 12:03:59,2021-12-14 12:04:00,0.820s,PASSED
+"click(findTestObject(""Object Repository/Page_Login - My Store/span_Sign in""))",Chrome 96.0.4664.93,,,2021-12-14 12:04:00,2021-12-14 12:04:02,1.741s,PASSED
+waitForPageLoad(3),Chrome 96.0.4664.93,,,2021-12-14 12:04:02,2021-12-14 12:04:02,0.215s,PASSED
+actDashTitle = getWindowTitle(),Chrome 96.0.4664.93,,,2021-12-14 12:04:02,2021-12-14 12:04:02,0.030s,PASSED
+print(actDashTitle),Chrome 96.0.4664.93,,,2021-12-14 12:04:02,2021-12-14 12:04:02,0.007s,PASSED
+"Assert.assertEquals(expDashboardTitle, actDashTitle)",Chrome 96.0.4664.93,,,2021-12-14 12:04:02,2021-12-14 12:04:02,0.034s,FAILED
+,,,,,,,
+Test Cases/Login/Login1,Chrome 96.0.4664.93,,,2021-12-14 12:04:02,2021-12-14 12:04:28,26.264s,PASSED
+"expDashboardTitle = ""My account - My Store""",Chrome 96.0.4664.93,,,2021-12-14 12:04:02,2021-12-14 12:04:02,0.001s,PASSED
+"openBrowser("""")",Chrome 96.0.4664.93,,,2021-12-14 12:04:02,2021-12-14 12:04:05,3.028s,PASSED
+"navigateToUrl(""http://automationpractice.com/index.php"")",Chrome 96.0.4664.93,,,2021-12-14 12:04:05,2021-12-14 12:04:15,9.730s,PASSED
+maximizeWindow(),Chrome 96.0.4664.93,,,2021-12-14 12:04:15,2021-12-14 12:04:15,0.150s,PASSED
+"click(findTestObject(""Object Repository/Page_My Store/a_Sign in""))",Chrome 96.0.4664.93,,,2021-12-14 12:04:15,2021-12-14 12:04:18,3.245s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login - My Store/input_Email address_email""), username)",Chrome 96.0.4664.93,,,2021-12-14 12:04:18,2021-12-14 12:04:19,0.990s,PASSED
+"setText(findTestObject(""Object Repository/Page_Login - My Store/input_Password_passwd""), password)",Chrome 96.0.4664.93,,,2021-12-14 12:04:19,2021-12-14 12:04:20,0.853s,PASSED
+"click(findTestObject(""Object Repository/Page_Login - My Store/span_Sign in""))",Chrome 96.0.4664.93,,,2021-12-14 12:04:20,2021-12-14 12:04:23,3.258s,PASSED
+waitForPageLoad(3),Chrome 96.0.4664.93,,,2021-12-14 12:04:23,2021-12-14 12:04:23,0.030s,PASSED
+actDashTitle = getWindowTitle(),Chrome 96.0.4664.93,,,2021-12-14 12:04:23,2021-12-14 12:04:23,0.018s,PASSED
+print(actDashTitle),Chrome 96.0.4664.93,,,2021-12-14 12:04:23,2021-12-14 12:04:23,0.001s,PASSED
+"Assert.assertEquals(expDashboardTitle, actDashTitle)",Chrome 96.0.4664.93,,,2021-12-14 12:04:23,2021-12-14 12:04:23,0.001s,PASSED
+"click(findTestObject(""Page_My Store/a_Sign out""))",Chrome 96.0.4664.93,,,2021-12-14 12:04:23,2021-12-14 12:04:27,3.774s,PASSED
+closeBrowser(),Chrome 96.0.4664.93,,,2021-12-14 12:04:27,2021-12-14 12:04:28,1.168s,PASSED

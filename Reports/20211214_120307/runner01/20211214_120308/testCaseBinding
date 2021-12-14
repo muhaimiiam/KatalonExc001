@@ -1,0 +1,2 @@
+{"testCaseName":"Test Cases/Login/Login1 - Iteration 1","testCaseId":"Test Cases/Login/Login1","bindedValues":{"password":"\u0027Muh41m1\u0027","username":"\u0027testmu001@mailinator.com\u0027"}}
+{"testCaseName":"Test Cases/Login/Login1 - Iteration 2","testCaseId":"Test Cases/Login/Login1","bindedValues":{"password":"\u0027Muh41m1n\u0027","username":"\u0027testmu001@mailinator.com\u0027"}}

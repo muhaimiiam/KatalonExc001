@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="runner01" time="75.782" tests="2" failures="1" errors="0">
+   <testsuite name="runner01" tests="2" failures="1" errors="0" time="75.782" skipped="0" timestamp="2021-12-14 12:03:12" hostname="Muhaimi_271 - MTNB672.mitrais.com" id="Test Suites/runner01">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\muhaimi_271\\git\\KatalonExc001\\Reports\\20211214_120307\\runner01\\20211214_120308"/>
+         <property name="logFiles" value="C:\\Users\\muhaimi_271\\git\\KatalonExc001\\Reports\\20211214_120307\\runner01\\20211214_120308\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Muhaimi_271 - MTNB672.mitrais.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Chrome 96.0.4664.93"/>
+         <property name="hostAddress" value="192.168.97.145"/>
+         <property name="sessionId" value="48e4ff103647cd808bb2ab5c1c50b4a7"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Login1" time="48.852" classname="Test Cases/Login/Login1" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Login/Login1 FAILED.
+Reason:
+junit.framework.ComparisonFailure: expected:&lt;[My account] - My Store> but was:&lt;[Login] - My Store>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at junit.framework.Assert$assertEquals.call(Unknown Source)
+	at Login1.run(Login1:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1639458188823.run(TempTestSuite1639458188823.groovy:36)
+"/>
+         <system-out><![CDATA[2021-12-14 12:03:13 - [TEST_CASE][FAILED] - Test Cases/Login/Login1: Test Cases/Login/Login1 FAILED.
+Reason:
+junit.framework.ComparisonFailure: expected:<[My account] - My Store> but was:<[Login] - My Store>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at junit.framework.Assert$assertEquals.call(Unknown Source)
+	at Login1.run(Login1:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1639458188823.run(TempTestSuite1639458188823.groovy:36)
+
+
+2021-12-14 12:03:14 - [TEST_STEP][PASSED] - expDashboardTitle = "My account - My Store": null
+
+2021-12-14 12:03:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-14 12:03:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-14 12:03:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-14 12:03:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-14 12:03:18 - [TEST_STEP][PASSED] - navigateToUrl("http://automationpractice.com/index.php"): Navigate to 'http://automationpractice.com/index.php' successfully
+
+2021-12-14 12:03:55 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/index.php' successfully
+
+2021-12-14 12:03:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-12-14 12:03:55 - [MESSAGE][PASSED] - Current window maximized
+
+2021-12-14 12:03:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_My Store/a_Sign in")): Object: 'Object Repository/Page_My Store/a_Sign in' is clicked on
+
+2021-12-14 12:03:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Store/a_Sign in' is clicked on
+
+2021-12-14 12:03:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login - My Store/input_Email address_email"), username): Text 'testmu001@mailinator.com' is set on object 'Object Repository/Page_Login - My Store/input_Email address_email'
+
+2021-12-14 12:03:59 - [MESSAGE][PASSED] - Text 'testmu001@mailinator.com' is set on object 'Object Repository/Page_Login - My Store/input_Email address_email'
+
+2021-12-14 12:03:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login - My Store/input_Password_passwd"), password): Text 'Muh41m1' is set on object 'Object Repository/Page_Login - My Store/input_Password_passwd'
+
+2021-12-14 12:04:00 - [MESSAGE][PASSED] - Text 'Muh41m1' is set on object 'Object Repository/Page_Login - My Store/input_Password_passwd'
+
+2021-12-14 12:04:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login - My Store/span_Sign in")): Object: 'Object Repository/Page_Login - My Store/span_Sign in' is clicked on
+
+2021-12-14 12:04:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - My Store/span_Sign in' is clicked on
+
+2021-12-14 12:04:02 - [TEST_STEP][PASSED] - waitForPageLoad(3): Wait for page load successfully
+
+2021-12-14 12:04:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-12-14 12:04:02 - [TEST_STEP][PASSED] - actDashTitle = getWindowTitle(): Current window's title is: 'Login - My Store'
+
+2021-12-14 12:04:02 - [MESSAGE][PASSED] - Current window's title is: 'Login - My Store'
+
+2021-12-14 12:04:02 - [TEST_STEP][PASSED] - print(actDashTitle): null
+
+2021-12-14 12:04:02 - [TEST_STEP][FAILED] - Assert.assertEquals(expDashboardTitle, actDashTitle): Test Cases/Login/Login1 FAILED.
+Reason:
+junit.framework.ComparisonFailure: expected:<[My account] - My Store> but was:<[Login] - My Store>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at junit.framework.Assert$assertEquals.call(Unknown Source)
+	at Login1.run(Login1:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1639458188823.run(TempTestSuite1639458188823.groovy:36)
+
+
+2021-12-14 12:04:02 - [MESSAGE][FAILED] - Test Cases/Login/Login1 FAILED.
+Reason:
+junit.framework.ComparisonFailure: expected:<[My account] - My Store> but was:<[Login] - My Store>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at junit.framework.Assert$assertEquals.call(Unknown Source)
+	at Login1.run(Login1:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1639458188823.run(TempTestSuite1639458188823.groovy:36)]]></system-out>
+         <system-err><![CDATA[2021-12-14 12:03:13 - [TEST_CASE][FAILED] - Test Cases/Login/Login1: Test Cases/Login/Login1 FAILED.
+Reason:
+junit.framework.ComparisonFailure: expected:<[My account] - My Store> but was:<[Login] - My Store>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at junit.framework.Assert$assertEquals.call(Unknown Source)
+	at Login1.run(Login1:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1639458188823.run(TempTestSuite1639458188823.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Login1" time="26.264" classname="Test Cases/Login/Login1" status="PASSED">
+         <system-out><![CDATA[2021-12-14 12:04:02 - [TEST_CASE][PASSED] - Test Cases/Login/Login1: Test Cases/Login/Login1
+
+2021-12-14 12:04:02 - [TEST_STEP][PASSED] - expDashboardTitle = "My account - My Store": null
+
+2021-12-14 12:04:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-14 12:04:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-12-14 12:04:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-14 12:04:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-14 12:04:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-14 12:04:05 - [TEST_STEP][PASSED] - navigateToUrl("http://automationpractice.com/index.php"): Navigate to 'http://automationpractice.com/index.php' successfully
+
+2021-12-14 12:04:15 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/index.php' successfully
+
+2021-12-14 12:04:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-12-14 12:04:15 - [MESSAGE][PASSED] - Current window maximized
+
+2021-12-14 12:04:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_My Store/a_Sign in")): Object: 'Object Repository/Page_My Store/a_Sign in' is clicked on
+
+2021-12-14 12:04:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Store/a_Sign in' is clicked on
+
+2021-12-14 12:04:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login - My Store/input_Email address_email"), username): Text 'testmu001@mailinator.com' is set on object 'Object Repository/Page_Login - My Store/input_Email address_email'
+
+2021-12-14 12:04:19 - [MESSAGE][PASSED] - Text 'testmu001@mailinator.com' is set on object 'Object Repository/Page_Login - My Store/input_Email address_email'
+
+2021-12-14 12:04:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Login - My Store/input_Password_passwd"), password): Text 'Muh41m1n' is set on object 'Object Repository/Page_Login - My Store/input_Password_passwd'
+
+2021-12-14 12:04:20 - [MESSAGE][PASSED] - Text 'Muh41m1n' is set on object 'Object Repository/Page_Login - My Store/input_Password_passwd'
+
+2021-12-14 12:04:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Login - My Store/span_Sign in")): Object: 'Object Repository/Page_Login - My Store/span_Sign in' is clicked on
+
+2021-12-14 12:04:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Login - My Store/span_Sign in' is clicked on
+
+2021-12-14 12:04:23 - [TEST_STEP][PASSED] - waitForPageLoad(3): Wait for page load successfully
+
+2021-12-14 12:04:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-12-14 12:04:23 - [TEST_STEP][PASSED] - actDashTitle = getWindowTitle(): Current window's title is: 'My account - My Store'
+
+2021-12-14 12:04:23 - [MESSAGE][PASSED] - Current window's title is: 'My account - My Store'
+
+2021-12-14 12:04:23 - [TEST_STEP][PASSED] - print(actDashTitle): null
+
+2021-12-14 12:04:23 - [TEST_STEP][PASSED] - Assert.assertEquals(expDashboardTitle, actDashTitle): null
+
+2021-12-14 12:04:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_My Store/a_Sign out")): Object: 'Object Repository/Page_My Store/a_Sign out' is clicked on
+
+2021-12-14 12:04:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Store/a_Sign out' is clicked on
+
+2021-12-14 12:04:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-12-14 12:04:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-12-14 12:03:12 - [TEST_SUITE][FAILED] - runner01: Test Cases/Login/Login1 FAILED.
+Reason:
+junit.framework.ComparisonFailure: expected:<[My account] - My Store> but was:<[Login] - My Store>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at junit.framework.Assert$assertEquals.call(Unknown Source)
+	at Login1.run(Login1:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1639458188823.run(TempTestSuite1639458188823.groovy:36)]]></system-out>
+      <system-err><![CDATA[2021-12-14 12:03:12 - [TEST_SUITE][FAILED] - runner01: Test Cases/Login/Login1 FAILED.
+Reason:
+junit.framework.ComparisonFailure: expected:<[My account] - My Store> but was:<[Login] - My Store>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at junit.framework.Assert$assertEquals.call(Unknown Source)
+	at Login1.run(Login1:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1639458188823.run(TempTestSuite1639458188823.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
