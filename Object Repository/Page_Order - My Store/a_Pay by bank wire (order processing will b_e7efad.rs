@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Sign in</name>
+   <name>a_Pay by bank wire (order processing will b_e7efad</name>
    <tag></tag>
-   <elementGuidId>e400740a-e417-49a3-b3d8-ba5b7b76c621</elementGuidId>
+   <elementGuidId>b062a984-4c15-471c-aba0-f72276875a8e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//header[@id='header']/div[2]/div/div/nav/div/a</value>
+         <value>//div[@id='HOOK_PAYMENT']/div/div/p/a</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>a.login</value>
+         <value>a.bankwire</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,28 +28,21 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>login</value>
+      <value>bankwire</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>http://automationpractice.com/index.php?controller=my-account</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>rel</name>
-      <type>Main</type>
-      <value>nofollow</value>
+      <value>http://automationpractice.com/index.php?fc=module&amp;module=bankwire&amp;controller=payment</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>title</name>
       <type>Main</type>
-      <value>Log in to your customer account</value>
+      <value>Pay by bank wire</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,56 +50,56 @@
       <name>text</name>
       <type>Main</type>
       <value>
-			Sign in
-		</value>
+            	Pay by bank wire (order processing will be longer)
+            </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;header&quot;)/div[@class=&quot;nav&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/nav[1]/div[@class=&quot;header_user_info&quot;]/a[@class=&quot;login&quot;]</value>
+      <value>id(&quot;HOOK_PAYMENT&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-12 col-md-6&quot;]/p[@class=&quot;payment_module&quot;]/a[@class=&quot;bankwire&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//header[@id='header']/div[2]/div/div/nav/div/a</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'Sign in')]</value>
+      <value>//div[@id='HOOK_PAYMENT']/div/div/p/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact us'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$28.98'])[6]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Sign in']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$30.51'])[1]/following::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Pay by bank wire']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[@href='http://automationpractice.com/index.php?controller=my-account']</value>
+      <value>//a[@href='http://automationpractice.com/index.php?fc=module&amp;module=bankwire&amp;controller=payment']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//nav/div/a</value>
+      <value>//div[3]/div/div/div[3]/div/div/p/a</value>
    </webElementXpaths>
 </WebElementEntity>

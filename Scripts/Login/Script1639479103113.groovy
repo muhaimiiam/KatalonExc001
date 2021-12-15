@@ -15,35 +15,5 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import junit.framework.Assert as Assert
 import org.openqa.selenium.Keys as Keys
-
-expDashboardTitle = 'My account - My Store'
-
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('http://automationpractice.com/index.php')
-
-WebUI.maximizeWindow()
-
-WebUI.click(findTestObject('Object Repository/Page_My Store/a_Sign in'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Login - My Store/input_Email address_email'), username)
-
-WebUI.setText(findTestObject('Object Repository/Page_Login - My Store/input_Password_passwd'), password)
-
-WebUI.click(findTestObject('Object Repository/Page_Login - My Store/span_Sign in'))
-
-WebUI.waitForPageLoad(3)
-
-actDashTitle = WebUI.getWindowTitle()
-
-print(actDashTitle)
-
-Assert.assertEquals(expDashboardTitle, actDashTitle)
-
-WebUI.click(findTestObject('Page_My Store/a_Sign out'))
-
-//WebUI.takeFullPageScreenshot('D:\\Pic\\PIC1\\test.png')
-WebUI.closeBrowser()
 

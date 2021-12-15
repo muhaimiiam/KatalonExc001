@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Checkout</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>80f04cca-add3-44ac-89f0-e8e029642bc4</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c5d66b7e-16cd-4d46-9550-16505c5d8416</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>345b4dc6-d341-4f1a-a291-b6af5a191a70</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

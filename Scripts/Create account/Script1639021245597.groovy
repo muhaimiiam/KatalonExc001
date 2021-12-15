@@ -67,3 +67,7 @@ WebUI.setText(findTestObject('Object Repository/Page_Login - My Store/input__pho
 
 WebUI.click(findTestObject('Object Repository/Page_Login - My Store/span_Register'))
 
+WebUI.click(findTestObject('Page_My Store/a_Sign out'))
+
+WebUI.closeBrowser()
+
